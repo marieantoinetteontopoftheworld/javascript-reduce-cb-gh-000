@@ -31,7 +31,7 @@ const couponLocations = [
   { room: 'Master bedroom', amount: 7 }
 ];
 
-function couponCounter(location, totalAmount) {
+function couponCounter(totalAmount, location) {
   return totalAmount + location.amount;
 }
 
